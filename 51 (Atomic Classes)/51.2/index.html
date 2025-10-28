@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 51.2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* This is the provided atomic CSS, you would put this in a separate CSS file */
+        .bg-green { background-color: green; }
+        .bg-white { background-color: white; }
+        .h-full { height: 100%; }
+        .h-screen { height: 100vh; }
+        .w-full { width: 100%; }
+        .flex { display: flex; }
+        .items-center { align-items: center; }
+        .justify-center { justify-content: center; }
+        .border-black-1 { border: 1px solid black; }
+        .border-dotted-black { border: 2px dotted black; }
+        .p-20 { padding: 20px; }
+        .text-center { text-align: center; }
+    </style>
+</head>
+<body class="bg-white h-screen flex justify-center items-center">
+
+    <div class="border-black-1 h-full w-full flex flex-col justify-between items-center" style="max-width: 800px; max-height: 600px;">
+        <div class="bg-green w-full h-full flex justify-center items-center">
+            <div class="border-dotted-black p-20">
+                <h2>Notice Board</h2>
+            </div>
+        </div>
+        <div class="bg-white w-full" style="height: 100px;">
+        </div>
+    </div>
+
+</body>
+</html>

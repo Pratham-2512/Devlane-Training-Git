@@ -1,0 +1,23 @@
+/* ---------- Atomic Classes ---------- */
+
+/* Background Colors */
+.bg-yellow { background-color: yellow; }
+.bg-white { background-color: white; }
+
+/* Text Colors */
+.text-green { color: green; }
+.text-red { color: red; }
+
+/* Padding */
+.p-5 { padding: 5px; }
+.p-10 { padding: 10px; }
+
+/* Margin */
+.m-0 { margin: 0; }
+
+/* Font Styles */
+.bold { font-weight: bold; }
+.text-50 { font-size: 50px; }
+
+/* Layout Helper */
+.text-center { text-align: center; }

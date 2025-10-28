@@ -1,0 +1,43 @@
+.bg-green {
+    background-color: green;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.border-black-1 {
+    border: 1px solid black;
+}
+
+.border-dotted-black {
+    border: 2px dotted black;
+}
+
+.p-20 {
+    padding: 20px;
+}
